@@ -3,6 +3,8 @@
 You need to check following files:
 train.py, Models.py, Layers.py, SubLayers.py, Modules.py
 
+There is an example how to use Transformer class at the bottom of train.py
+
 
 # Attention is all you need: A Pytorch Implementation
 
