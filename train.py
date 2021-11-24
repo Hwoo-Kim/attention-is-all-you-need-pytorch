@@ -5,7 +5,7 @@ This script handles the training process.
 import argparse
 import math
 import time
-import dill as pickle
+#import dill as pickle
 from tqdm import tqdm
 import numpy as np
 import random
@@ -364,4 +364,15 @@ def prepare_dataloaders(opt, device):
 
 
 if __name__ == '__main__':
-    main()
+    transformer = Transformer(
+        n_vocab=53,
+        pad_idx=None,
+        d_word_vec=512,
+        d_model=512,
+        d_inner=2048,
+        d_k=64,
+        d_v=64,
+        n_enc_layers=6,
+        n_dec_layers=3,
+        n_head=8,
+        dropout=0.0)
