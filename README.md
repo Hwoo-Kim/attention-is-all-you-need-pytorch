@@ -1,4 +1,4 @@
-# Final Project for AI Chemistry
+# Final Project for AI Chemistry 2021 Fall
 
 You need to check following files:
 train.py, Models.py, Layers.py, SubLayers.py, Modules.py
